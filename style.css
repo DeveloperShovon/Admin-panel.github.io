@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	outline: none;
+	border: none;
+}
+body {
+	display: flex;
+  }
+  .nav {
+	position: sticky;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #191C24 !important;
+	width: 99px;
+	height: 100vh;
+	color: white;
+	padding: 0 28px;
+	overflow: hidden;
+	transition: .4s;
+}
+
+.nav:hover{
+	width: 250px;
+}
+.logo{
+	padding: 16px;
+	height: 80px;
+}
+.list-item {
+	height: 88%;
+	position: relative;
+	list-style: none;
+	width: 100%;
+	PADDING: 0;
+}
+.list-item li{
+	margin: 10px 0px;
+	padding: 10px 15px;
+	border-radius: 8px;
+	transition: .3s;
+	text-decoration: none;
+	overflow: hidden;
+
+	
+}
+.list-item li a{
+	text-decoration: none;
+	overflow: hidden;
+	display: inline-flex;
+}
+.list-item li:hover{
+	background-color:black;
+	border: 1px rgb(110, 109, 109) solid;
+}
+.list-item li i{
+	font-size: 22px;
+	color: white;
+	margin-right: 12px;
+	
+}
+.list-item li span{
+	font-size: 15px;
+	color: WHITE;
+	
+ }
+ .log-out{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+ }
+ .log-out span{
+
+	overflow: hidden;
+ }
+
+ .logo{}
+
+ .logo-img img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: -18px;
+}
+.logo-text h4 {
+	font-size: 18px;
+	line-height: 53px;
+	margin-left: 19px;
+}
+.logo-text{
+	overflow: hidden;
+}
